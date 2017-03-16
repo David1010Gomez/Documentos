@@ -1,0 +1,306 @@
+
+          -----------------------------------
+<- UTC|KMS: 14-09-2016 15:03:02 | 14-09-2016 10:03:02 --
+=========================================================
+KMS Server Service Emulator v1.2.1 (07/25/2015) Starting ...
+=========================================================
+KMS Server Service Emulator Parameters:
+
+          Windows PID: RandomKMSPID
+      Office 2010 PID: RandomKMSPID
+      Office 2013 PID: RandomKMSPID
+                 Port: 1688
+  Activation Interval: 43200 minutes 
+     Renewal Interval: 43200 minutes 
+ Kill Process on Port: Enabled
+                 Hwid: 9E59F200201AD01A
+
+KMS Server Service Emulator v1.2.1 (07/25/2015) running ...
+          -----------------------------------
+
+<- UTC|KMS: 14-09-2016 15:03:15 | 14-09-2016 10:03:15 --
+Request received from:
+    Client Name: DESKTOP-LLI0N3O
+        Product: Windows 10 Professional
+ Application ID: {55C92734-D682-4D71-983E-D6EC3F16059F}
+         SKU ID: {2DE67392-B7A7-462A-B1CA-108DD189F588}
+         KMS ID: {58E2134F-8E11-4D17-9CB2-91069C151148}
+ License Status: Licensed
+ Time UTC|KMS: 14-09-2016 15:03:08 | 14-09-2016 10:03:08
+ Client network address: 100.100.0.10
+          -----------------------------------
+          Activation response (KMS v6.0) sent
+          -----------------------------------
+
+
+          -----------------------------------
+<- UTC|KMS: 24-09-2016 20:33:42 | 24-09-2016 15:33:42 --
+=========================================================
+KMS Server Service Emulator v1.2.1 (07/25/2015) Starting ...
+=========================================================
+KMS Server Service Emulator Parameters:
+
+          Windows PID: RandomKMSPID
+      Office 2010 PID: RandomKMSPID
+      Office 2013 PID: RandomKMSPID
+                 Port: 1688
+  Activation Interval: 43200 minutes 
+     Renewal Interval: 43200 minutes 
+ Kill Process on Port: Enabled
+                 Hwid: 9E59F200201AD01A
+
+KMS Server Service Emulator v1.2.1 (07/25/2015) running ...
+          -----------------------------------
+
+<- UTC|KMS: 24-09-2016 20:35:02 | 24-09-2016 15:35:02 --
+Request received from:
+    Client Name: DESKTOP-LLI0N3O
+        Product: Windows 10 Professional
+ Application ID: {55C92734-D682-4D71-983E-D6EC3F16059F}
+         SKU ID: {2DE67392-B7A7-462A-B1CA-108DD189F588}
+         KMS ID: {58E2134F-8E11-4D17-9CB2-91069C151148}
+ License Status: Licensed
+ Time UTC|KMS: 24-09-2016 20:34:58 | 24-09-2016 15:34:58
+ Client network address: 100.100.0.10
+          -----------------------------------
+          Activation response (KMS v6.0) sent
+          -----------------------------------
+
+
+          -----------------------------------
+<- UTC|KMS: 04-10-2016 15:00:13 | 04-10-2016 10:00:13 --
+=========================================================
+KMS Server Service Emulator v1.2.1 (07/25/2015) Starting ...
+=========================================================
+KMS Server Service Emulator Parameters:
+
+          Windows PID: RandomKMSPID
+      Office 2010 PID: RandomKMSPID
+      Office 2013 PID: RandomKMSPID
+                 Port: 1688
+  Activation Interval: 43200 minutes 
+     Renewal Interval: 43200 minutes 
+ Kill Process on Port: Enabled
+                 Hwid: 9E59F200201AD01A
+
+KMS Server Service Emulator v1.2.1 (07/25/2015) running ...
+          -----------------------------------
+
+<- UTC|KMS: 04-10-2016 15:00:25 | 04-10-2016 10:00:25 --
+Request received from:
+    Client Name: DESKTOP-LLI0N3O
+        Product: Windows 10 Professional
+ Application ID: {55C92734-D682-4D71-983E-D6EC3F16059F}
+         SKU ID: {2DE67392-B7A7-462A-B1CA-108DD189F588}
+         KMS ID: {58E2134F-8E11-4D17-9CB2-91069C151148}
+ License Status: Licensed
+ Time UTC|KMS: 04-10-2016 15:00:22 | 04-10-2016 10:00:22
+ Client network address: 100.100.0.10
+          -----------------------------------
+          Activation response (KMS v6.0) sent
+          -----------------------------------
+
+
+          -----------------------------------
+<- UTC|KMS: 24-10-2016 15:01:48 | 24-10-2016 10:01:48 --
+=========================================================
+KMS Server Service Emulator v1.2.1 (07/25/2015) Starting ...
+=========================================================
+KMS Server Service Emulator Parameters:
+
+          Windows PID: RandomKMSPID
+      Office 2010 PID: RandomKMSPID
+      Office 2013 PID: RandomKMSPID
+                 Port: 1688
+  Activation Interval: 43200 minutes 
+     Renewal Interval: 43200 minutes 
+ Kill Process on Port: Enabled
+                 Hwid: 9E59F200201AD01A
+
+KMS Server Service Emulator v1.2.1 (07/25/2015) running ...
+          -----------------------------------
+
+<- UTC|KMS: 24-10-2016 15:01:58 | 24-10-2016 10:01:58 --
+Request received from:
+    Client Name: DESKTOP-LLI0N3O
+        Product: Windows 10 Professional
+ Application ID: {55C92734-D682-4D71-983E-D6EC3F16059F}
+         SKU ID: {2DE67392-B7A7-462A-B1CA-108DD189F588}
+         KMS ID: {58E2134F-8E11-4D17-9CB2-91069C151148}
+ License Status: Licensed
+ Time UTC|KMS: 24-10-2016 15:01:55 | 24-10-2016 10:01:55
+ Client network address: 100.100.0.10
+          -----------------------------------
+          Activation response (KMS v6.0) sent
+          -----------------------------------
+
+
+          -----------------------------------
+<- UTC|KMS: 03-11-2016 15:00:17 | 03-11-2016 10:00:17 --
+=========================================================
+KMS Server Service Emulator v1.2.1 (07/25/2015) Starting ...
+=========================================================
+KMS Server Service Emulator Parameters:
+
+          Windows PID: RandomKMSPID
+      Office 2010 PID: RandomKMSPID
+      Office 2013 PID: RandomKMSPID
+                 Port: 1688
+  Activation Interval: 43200 minutes 
+     Renewal Interval: 43200 minutes 
+ Kill Process on Port: Enabled
+                 Hwid: 9E59F200201AD01A
+
+KMS Server Service Emulator v1.2.1 (07/25/2015) running ...
+          -----------------------------------
+
+<- UTC|KMS: 03-11-2016 15:00:26 | 03-11-2016 10:00:26 --
+Request received from:
+    Client Name: DESKTOP-LLI0N3O
+        Product: Windows 10 Professional
+ Application ID: {55C92734-D682-4D71-983E-D6EC3F16059F}
+         SKU ID: {2DE67392-B7A7-462A-B1CA-108DD189F588}
+         KMS ID: {58E2134F-8E11-4D17-9CB2-91069C151148}
+ License Status: Licensed
+ Time UTC|KMS: 03-11-2016 15:00:23 | 03-11-2016 10:00:23
+ Client network address: 100.100.0.10
+          -----------------------------------
+          Activation response (KMS v6.0) sent
+          -----------------------------------
+
+
+          -----------------------------------
+<- UTC|KMS: 13-11-2016 15:02:38 | 13-11-2016 10:02:38 --
+=========================================================
+KMS Server Service Emulator v1.2.1 (07/25/2015) Starting ...
+=========================================================
+KMS Server Service Emulator Parameters:
+
+          Windows PID: RandomKMSPID
+      Office 2010 PID: RandomKMSPID
+      Office 2013 PID: RandomKMSPID
+                 Port: 1688
+  Activation Interval: 43200 minutes 
+     Renewal Interval: 43200 minutes 
+ Kill Process on Port: Enabled
+                 Hwid: 9E59F200201AD01A
+
+KMS Server Service Emulator v1.2.1 (07/25/2015) running ...
+          -----------------------------------
+
+<- UTC|KMS: 13-11-2016 15:02:48 | 13-11-2016 10:02:48 --
+Request received from:
+    Client Name: DESKTOP-LLI0N3O
+        Product: Windows 10 Professional
+ Application ID: {55C92734-D682-4D71-983E-D6EC3F16059F}
+         SKU ID: {2DE67392-B7A7-462A-B1CA-108DD189F588}
+         KMS ID: {58E2134F-8E11-4D17-9CB2-91069C151148}
+ License Status: Licensed
+ Time UTC|KMS: 13-11-2016 15:02:45 | 13-11-2016 10:02:45
+ Client network address: 100.100.0.10
+          -----------------------------------
+          Activation response (KMS v6.0) sent
+          -----------------------------------
+
+
+          -----------------------------------
+<- UTC|KMS: 23-11-2016 15:10:59 | 23-11-2016 10:10:59 --
+=========================================================
+KMS Server Service Emulator v1.2.1 (07/25/2015) Starting ...
+=========================================================
+KMS Server Service Emulator Parameters:
+
+          Windows PID: RandomKMSPID
+      Office 2010 PID: RandomKMSPID
+      Office 2013 PID: RandomKMSPID
+                 Port: 1688
+  Activation Interval: 43200 minutes 
+     Renewal Interval: 43200 minutes 
+ Kill Process on Port: Enabled
+                 Hwid: 9E59F200201AD01A
+
+KMS Server Service Emulator v1.2.1 (07/25/2015) running ...
+          -----------------------------------
+
+<- UTC|KMS: 23-11-2016 15:11:09 | 23-11-2016 10:11:09 --
+Request received from:
+    Client Name: DESKTOP-LLI0N3O
+        Product: Windows 10 Professional
+ Application ID: {55C92734-D682-4D71-983E-D6EC3F16059F}
+         SKU ID: {2DE67392-B7A7-462A-B1CA-108DD189F588}
+         KMS ID: {58E2134F-8E11-4D17-9CB2-91069C151148}
+ License Status: Licensed
+ Time UTC|KMS: 23-11-2016 15:11:07 | 23-11-2016 10:11:07
+ Client network address: 100.100.0.10
+          -----------------------------------
+          Activation response (KMS v6.0) sent
+          -----------------------------------
+
+
+          -----------------------------------
+<- UTC|KMS: 03-12-2016 23:39:34 | 03-12-2016 18:39:34 --
+=========================================================
+KMS Server Service Emulator v1.2.1 (07/25/2015) Starting ...
+=========================================================
+KMS Server Service Emulator Parameters:
+
+          Windows PID: RandomKMSPID
+      Office 2010 PID: RandomKMSPID
+      Office 2013 PID: RandomKMSPID
+                 Port: 1688
+  Activation Interval: 43200 minutes 
+     Renewal Interval: 43200 minutes 
+ Kill Process on Port: Enabled
+                 Hwid: 9E59F200201AD01A
+
+KMS Server Service Emulator v1.2.1 (07/25/2015) running ...
+          -----------------------------------
+
+<- UTC|KMS: 03-12-2016 23:39:51 | 03-12-2016 18:39:51 --
+Request received from:
+    Client Name: DESKTOP-LLI0N3O
+        Product: Windows 10 Professional
+ Application ID: {55C92734-D682-4D71-983E-D6EC3F16059F}
+         SKU ID: {2DE67392-B7A7-462A-B1CA-108DD189F588}
+         KMS ID: {58E2134F-8E11-4D17-9CB2-91069C151148}
+ License Status: Licensed
+ Time UTC|KMS: 03-12-2016 23:39:41 | 03-12-2016 18:39:41
+ Client network address: 100.100.0.10
+          -----------------------------------
+          Activation response (KMS v6.0) sent
+          -----------------------------------
+
+
+          -----------------------------------
+<- UTC|KMS: 13-12-2016 15:02:47 | 13-12-2016 10:02:47 --
+=========================================================
+KMS Server Service Emulator v1.2.1 (07/25/2015) Starting ...
+=========================================================
+KMS Server Service Emulator Parameters:
+
+          Windows PID: RandomKMSPID
+      Office 2010 PID: RandomKMSPID
+      Office 2013 PID: RandomKMSPID
+                 Port: 1688
+  Activation Interval: 43200 minutes 
+     Renewal Interval: 43200 minutes 
+ Kill Process on Port: Enabled
+                 Hwid: 9E59F200201AD01A
+
+KMS Server Service Emulator v1.2.1 (07/25/2015) running ...
+          -----------------------------------
+
+<- UTC|KMS: 13-12-2016 15:02:56 | 13-12-2016 10:02:56 --
+Request received from:
+    Client Name: DESKTOP-LLI0N3O
+        Product: Windows 10 Professional
+ Application ID: {55C92734-D682-4D71-983E-D6EC3F16059F}
+         SKU ID: {2DE67392-B7A7-462A-B1CA-108DD189F588}
+         KMS ID: {58E2134F-8E11-4D17-9CB2-91069C151148}
+ License Status: Licensed
+ Time UTC|KMS: 13-12-2016 15:02:53 | 13-12-2016 10:02:53
+ Client network address: 100.100.0.10
+          -----------------------------------
+          Activation response (KMS v6.0) sent
+          -----------------------------------
+
