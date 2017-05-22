@@ -1,0 +1,220 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    	<meta charset="utf-8">
+	<script type = "text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    	<title>Mapa</title>
+
+	
+
+</head>
+<body >
+	<div> 
+		<h1>Gráfica Rango de edades en Colombia</h1>
+		<br/>
+		<div style="float: right; margin-right:10%; border: 1px solid #eee; 
+		padding: 10px; width: 30%; position: absolute; background-color: #eee;">
+			<a onclick="Recarga();" style="float: right; text-decoration: underline; 
+			cursor: pointer;">Nueva Grafica</a>
+			<h2>Ingreso de Datos (en miles)</h2>
+			<p >0 - 12 Años:</p>
+			<input type="text" id="d1" />
+			<p >13 - 25 Años:</p>
+			<input type="text" id="d2"/>
+			<p >26 - 37 Años:</p>
+			<input type="text" id="d3"/>
+			<p >38 - 50 Años:</p>
+			<input type="text" id="d4"/>
+			<p >51 - 100 Años:</p>
+			<input type="text" id="d5"/>
+			<br/>
+			<br/>
+			<br/>
+			<input type="button" id="Envia_Datos" value="Crear Grafico"/>
+		</div>
+		
+		<canvas id="canvas" style ="width:400px; height: 200px; margin-left: 40%;"></canvas>
+	</div>
+	<script>
+		function Recarga()
+		{
+			window.location.href = "Index.html";
+		}
+		var c, canvas;
+		canvas = document.getElementById("canvas");
+		c = canvas.getContext("2d");
+		canvas.addEventListener("mousedown", getPosition, false);
+		
+		c.clearRect(0,0,1000,500);
+		c.beginPath();
+		
+		c.font="0.5em Arial";
+		c.fillText("51-100",1,27);
+		c.fillText("38-50",1,52);
+		c.fillText("26-37",1,77);
+		c.fillText("13-25",1,102);
+		c.fillText("0-12",1,127);
+		c.fillText("Años",8,8);
+		
+		//Eje X
+      		c.moveTo(30, 140);
+      		c.lineTo(290, 140);
+      		c.lineWidth = 2;
+
+		//Eje Y
+		c.moveTo(30, 5);
+      		c.lineTo(30, 140);
+      		c.lineWidth = 2;
+
+      		c.stroke();
+		
+		$('#Envia_Datos').click(function(){
+
+			var d1 = $('#d1').val();
+			var d2 = $('#d2').val();
+			var d3 = $('#d3').val();
+			var d4 = $('#d4').val();
+			var d5 = $('#d5').val();			
+
+			c.fillRect(30, 20, d5/100, 10);
+		
+		
+			c.fillRect(30, 45, d4/100, 10);
+		
+
+			c.fillRect(30, 70, d3/100, 10);
+		
+			
+			c.fillRect(30, 95, d2/100, 10);
+
+
+			c.fillRect(30, 120, d1/100, 10);
+			
+			
+			$('#d1').attr("disabled","true");
+			
+      
+		});
+		
+		function getPosition(event)
+      		{
+			var dd1 = $('#d1').val();
+			var dd2 = $('#d2').val();
+			var dd3 = $('#d3').val();
+			var dd4 = $('#d4').val();
+			var dd5 = $('#d5').val();
+
+        		var x = new Number();
+        		var y = new Number();
+        		var canvas = document.getElementById("canvas");
+
+        		if (event.x != undefined && event.y != undefined)
+        		{
+          		x = event.x;
+          		y = event.y;
+        		}
+        		else // Firefox method to get the position
+        		{
+          			x = event.clientX + document.body.scrollLeft +
+              			document.documentElement.scrollLeft;
+          			y = event.clientY + document.body.scrollTop +
+              			document.documentElement.scrollTop;
+        		}
+
+        		x -= canvas.offsetLeft;
+        		y -= canvas.offsetTop;
+			if((dd1>0 && dd1<2500) || (dd2>0 && dd2<2500) || (dd3>0 && dd3<2500) || (dd4>0 && dd4<2500) || (dd5>0 && dd5<2500))
+			{
+				var x1 = ((dd1/100))+40;
+				var x2 = ((dd2/100))+40;
+				var x3 = ((dd3/100))+40;
+				var x4 = ((dd4/100))+40;
+				var x5 = ((dd5/100))+40;
+			}
+			else {
+				if((dd1>=2500 && dd1<6000) || (dd2>=2500 && dd2<6000) || (dd3>=2500 && dd3<6000) || (dd4>=2500 && dd4<6000) || (dd5>=2500 && dd5<=6000))
+				{
+					var x1 = ((dd1/100))+55;
+					var x2 = ((dd2/100))+55;
+					var x3 = ((dd3/100))+55;
+					var x4 = ((dd4/100))+55;
+					var x5 = ((dd5/100))+55;
+				}
+				else {
+					if((dd1>=6000 && dd1<10000) || (dd2>=6000 && dd2<10000) || (dd3>=6000 && dd3<10000) || (dd4>=6000 && dd4<10000) || (dd5>=6000 && dd5<=10000))
+					{
+						var x1 = ((dd1/100))+67;
+						var x2 = ((dd2/100))+67;
+						var x3 = ((dd3/100))+67;
+						var x4 = ((dd4/100))+67;
+						var x5 = ((dd5/100))+67;
+					}
+					else {
+						if((dd1>=10000 && dd1<14000) || (dd2>=10000 && dd2<14000) || (dd3>=10000 && dd3<14000) || (dd4>=10000 && dd4<14000) || (dd5>=10000 && dd5<=14000))
+						{
+							var x1 = ((dd1/100))+79;
+							var x2 = ((dd2/100))+79;
+							var x3 = ((dd3/100))+79;
+							var x4 = ((dd4/100))+79;
+							var x5 = ((dd5/100))+79;
+						}
+						else {	
+							if((dd1>=14000 && dd1<18000) || (dd2>=14000 && dd2<18000) || (dd3>=14000 && dd3<18000) || (dd4>=14000 && dd4<18000) || (dd5>=14000 && dd5<=18000))
+							{
+								var x1 = ((dd1/100))+91;
+								var x2 = ((dd2/100))+91;
+								var x3 = ((dd3/100))+91;
+								var x4 = ((dd4/100))+91;
+								var x5 = ((dd5/100))+91;
+							}
+							else {
+								if((dd1>=18000 && dd1<22000) || (dd2>=18000 && dd2<22000) || (dd3>=18000 && dd3<22000) || (dd4>=18000 && dd4<22000) || (dd5>=18000 && dd5<=22000))
+								{
+									var x1 = ((dd1/100))+104;
+									var x2 = ((dd2/100))+104;
+									var x3 = ((dd3/100))+104;
+									var x4 = ((dd4/100))+104;
+									var x5 = ((dd5/100))+104;
+								}
+								else {
+									if((dd1>=22000) || (dd2>=22000) || (dd3>=22000) || (dd4>=22000) || (dd5>=22000))
+									{
+										var x1 = ((dd1/100))+113;
+										var x2 = ((dd2/100))+113;
+										var x3 = ((dd3/100))+113;
+										var x4 = ((dd4/100))+113;
+										var x5 = ((dd5/100))+113;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			if ((x>=40 && x<=(x1)) && (y>=160 && y<=170))
+			{
+				alert('Exacto1');
+			}
+			if ((x>=40 && x<=(x2)) && (y>=125 && y<=135))
+			{
+				alert('Exacto2');
+			}
+			if ((x>=40 && x<=(x3)) && (y>=92 && y<=102))
+			{
+				alert('Exacto3');
+			}		
+			if ((x>=40 && x<=(x4)) && (y>=60 && y<=70))
+			{
+				alert('Exacto4');
+			}
+			if ((x>=40 && x<=(x5)) && (y>=26 && y<=36))
+			{
+				alert('Exacto5');
+			}
+        		alert("x: " + x + "  y: " + y);
+      		}
+
+
+	</script>
+</body>
+</html>
