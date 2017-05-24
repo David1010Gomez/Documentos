@@ -55,6 +55,20 @@
 		c.fillText("13-25",1,102);
 		c.fillText("0-12",1,127);
 		c.fillText("Años",8,8);
+
+		c.fillText("2mil",40,150);
+		c.fillText("4mil",60,150);
+		c.fillText("6mil",80,150);
+		c.fillText("8mil",100,150);
+		c.fillText("10Mil",120,150);
+		c.fillText("12Mil",140,150);
+		c.fillText("14Mil",160,150);
+		c.fillText("16Mil",180,150);
+		c.fillText("18Mil",200,150);			
+		c.fillText("20Mil",220,150);
+		c.fillText("22Mil",240,150);
+		c.fillText("24Mil",260,150);
+		
 		
 		//Eje X
       		c.moveTo(30, 140);
@@ -64,7 +78,44 @@
 		//Eje Y
 		c.moveTo(30, 5);
       		c.lineTo(30, 140);
-      		c.lineWidth = 2;
+		
+		c.moveTo(50, 135);
+      		c.lineTo(50, 145);
+
+		c.moveTo(70, 135);
+      		c.lineTo(70, 145);
+
+		c.moveTo(90, 135);
+      		c.lineTo(90, 145);
+
+		c.moveTo(110, 135);
+      		c.lineTo(110, 145);
+
+		c.moveTo(130, 135);
+      		c.lineTo(130, 145);
+
+		c.moveTo(150, 135);
+      		c.lineTo(150, 145);
+
+		c.moveTo(170, 135);
+      		c.lineTo(170, 145);
+
+		c.moveTo(190, 135);
+      		c.lineTo(190, 145);
+
+		c.moveTo(210, 135);
+      		c.lineTo(210, 145);
+
+		c.moveTo(230, 135);
+      		c.lineTo(230, 145);
+
+		c.moveTo(250, 135);
+      		c.lineTo(250, 145);
+
+		c.moveTo(270, 135);
+      		c.lineTo(270, 145);
+		
+      		c.lineWidth = 1.5;
 
       		c.stroke();
 		
@@ -92,7 +143,11 @@
 			
 			
 			$('#d1').attr("disabled","true");
-			
+			$('#d2').attr("disabled","true");
+			$('#d3').attr("disabled","true");
+			$('#d4').attr("disabled","true");
+			$('#d5').attr("disabled","true");
+						
       
 		});
 		
@@ -103,6 +158,8 @@
 			var dd3 = $('#d3').val();
 			var dd4 = $('#d4').val();
 			var dd5 = $('#d5').val();
+
+			var Array = [dd1, dd2, dd3, dd4, dd5];
 
         		var x = new Number();
         		var y = new Number();
@@ -123,94 +180,86 @@
 
         		x -= canvas.offsetLeft;
         		y -= canvas.offsetTop;
-			if((dd1>0 && dd1<2500) || (dd2>0 && dd2<2500) || (dd3>0 && dd3<2500) || (dd4>0 && dd4<2500) || (dd5>0 && dd5<2500))
+
+			var xx;
+			for (i = 0; i<Array.length; i++)
 			{
-				var x1 = ((dd1/100))+40;
-				var x2 = ((dd2/100))+40;
-				var x3 = ((dd3/100))+40;
-				var x4 = ((dd4/100))+40;
-				var x5 = ((dd5/100))+40;
-			}
-			else {
-				if((dd1>=2500 && dd1<6000) || (dd2>=2500 && dd2<6000) || (dd3>=2500 && dd3<6000) || (dd4>=2500 && dd4<6000) || (dd5>=2500 && dd5<=6000))
-				{
-					var x1 = ((dd1/100))+55;
-					var x2 = ((dd2/100))+55;
-					var x3 = ((dd3/100))+55;
-					var x4 = ((dd4/100))+55;
-					var x5 = ((dd5/100))+55;
-				}
-				else {
-					if((dd1>=6000 && dd1<10000) || (dd2>=6000 && dd2<10000) || (dd3>=6000 && dd3<10000) || (dd4>=6000 && dd4<10000) || (dd5>=6000 && dd5<=10000))
+				
+				var T= Array[i];
+				
+				if( T>0 && T<=2500)
+				{					
+					xx = ((T)/100)+42;
+					
+				} else {
+					if(T>=2500 && T<6000)
 					{
-						var x1 = ((dd1/100))+67;
-						var x2 = ((dd2/100))+67;
-						var x3 = ((dd3/100))+67;
-						var x4 = ((dd4/100))+67;
-						var x5 = ((dd5/100))+67;
-					}
-					else {
-						if((dd1>=10000 && dd1<14000) || (dd2>=10000 && dd2<14000) || (dd3>=10000 && dd3<14000) || (dd4>=10000 && dd4<14000) || (dd5>=10000 && dd5<=14000))
+						xx = ((T)/100)+57;
+						alert(xx);
+					} else {
+						if(T>=6000 && T<10000)
 						{
-							var x1 = ((dd1/100))+79;
-							var x2 = ((dd2/100))+79;
-							var x3 = ((dd3/100))+79;
-							var x4 = ((dd4/100))+79;
-							var x5 = ((dd5/100))+79;
-						}
-						else {	
-							if((dd1>=14000 && dd1<18000) || (dd2>=14000 && dd2<18000) || (dd3>=14000 && dd3<18000) || (dd4>=14000 && dd4<18000) || (dd5>=14000 && dd5<=18000))
+							xx = ((T)/100)+69;
+						} else {
+							if(T>=10000 && T<14000)
 							{
-								var x1 = ((dd1/100))+91;
-								var x2 = ((dd2/100))+91;
-								var x3 = ((dd3/100))+91;
-								var x4 = ((dd4/100))+91;
-								var x5 = ((dd5/100))+91;
-							}
-							else {
-								if((dd1>=18000 && dd1<22000) || (dd2>=18000 && dd2<22000) || (dd3>=18000 && dd3<22000) || (dd4>=18000 && dd4<22000) || (dd5>=18000 && dd5<=22000))
+								xx = ((T)/100)+79;
+								alert(xx);
+							} else {
+								if(T>=14000 && T<18000)
 								{
-									var x1 = ((dd1/100))+104;
-									var x2 = ((dd2/100))+104;
-									var x3 = ((dd3/100))+104;
-									var x4 = ((dd4/100))+104;
-									var x5 = ((dd5/100))+104;
-								}
-								else {
-									if((dd1>=22000) || (dd2>=22000) || (dd3>=22000) || (dd4>=22000) || (dd5>=22000))
+									xx = ((T)/100)+91;
+								} else {
+									if(T>=18000 && T<22000)
 									{
-										var x1 = ((dd1/100))+113;
-										var x2 = ((dd2/100))+113;
-										var x3 = ((dd3/100))+113;
-										var x4 = ((dd4/100))+113;
-										var x5 = ((dd5/100))+113;
+										xx = ((T)/100)+104;
+									} else {
+										if(T>22000)
+										{
+											xx = ((T)/100)+115;
+										}
 									}
 								}
 							}
 						}
 					}
 				}
+					T = "";
+
+
+				if ((x>=40 && x<(xx)) && (y>=160 && y<170))
+				{
+					alert('Exacto1');
+					xx= "";
+					break;
+				}
+				if ((x>=40 && x<(xx)) && (y>=125 && y<135))
+				{
+					alert('Exacto2');
+					xx= "";
+					break;
+				}
+				if ((x>=40 && x<(xx)) && (y>=92 && y<102))
+				{
+					alert('Exacto3');
+					xx= 0;
+					break;
+				}		
+				if ((x>=40 && x<(xx)) && (y>=60 && y<70))
+				{
+					alert('Exacto4');
+					xx= 0;
+					break;
+				}
+				if ((x>=40 && x<(xx)) && (y>=26 && y<36))
+				{
+					alert('Exacto5');
+					xx= 0;
+					break;
+				}
+				break;	
 			}
-			if ((x>=40 && x<=(x1)) && (y>=160 && y<=170))
-			{
-				alert('Exacto1');
-			}
-			if ((x>=40 && x<=(x2)) && (y>=125 && y<=135))
-			{
-				alert('Exacto2');
-			}
-			if ((x>=40 && x<=(x3)) && (y>=92 && y<=102))
-			{
-				alert('Exacto3');
-			}		
-			if ((x>=40 && x<=(x4)) && (y>=60 && y<=70))
-			{
-				alert('Exacto4');
-			}
-			if ((x>=40 && x<=(x5)) && (y>=26 && y<=36))
-			{
-				alert('Exacto5');
-			}
+			xx= 0;
         		alert("x: " + x + "  y: " + y);
       		}
 
