@@ -32,7 +32,7 @@
 			<br/>
 			<input type="button" id="Envia_Datos" value="Crear Grafico"/>
 		</div>
-		
+		<p id="demo"></p>
 		<canvas id="canvas" style ="width:400px; height: 200px; margin-left: 40%;"></canvas>
 	</div>
 	<script>
@@ -181,42 +181,50 @@
         		x -= canvas.offsetLeft;
         		y -= canvas.offsetTop;
 
-			var xx;
+			var xx = "";
+			
+			var Posiciones=[];
+
 			for (i = 0; i<Array.length; i++)
 			{
-				
+					
 				var T= Array[i];
 				
 				if( T>0 && T<=2500)
 				{					
 					xx = ((T)/100)+42;
 					
+					
 				} else {
 					if(T>=2500 && T<6000)
 					{
 						xx = ((T)/100)+57;
-						alert(xx);
+						
 					} else {
 						if(T>=6000 && T<10000)
 						{
 							xx = ((T)/100)+69;
+							
 						} else {
 							if(T>=10000 && T<14000)
 							{
 								xx = ((T)/100)+79;
-								alert(xx);
+								
 							} else {
 								if(T>=14000 && T<18000)
 								{
 									xx = ((T)/100)+91;
+									
 								} else {
 									if(T>=18000 && T<22000)
 									{
 										xx = ((T)/100)+104;
+										Posiciones[i]=xx;
 									} else {
 										if(T>22000)
 										{
 											xx = ((T)/100)+115;
+											
 										}
 									}
 								}
@@ -224,42 +232,40 @@
 						}
 					}
 				}
-					T = "";
-
-
-				if ((x>=40 && x<(xx)) && (y>=160 && y<170))
-				{
-					alert('Exacto1');
-					xx= "";
-					break;
-				}
-				if ((x>=40 && x<(xx)) && (y>=125 && y<135))
-				{
-					alert('Exacto2');
-					xx= "";
-					break;
-				}
-				if ((x>=40 && x<(xx)) && (y>=92 && y<102))
-				{
-					alert('Exacto3');
-					xx= 0;
-					break;
-				}		
-				if ((x>=40 && x<(xx)) && (y>=60 && y<70))
-				{
-					alert('Exacto4');
-					xx= 0;
-					break;
-				}
-				if ((x>=40 && x<(xx)) && (y>=26 && y<36))
-				{
-					alert('Exacto5');
-					xx= 0;
-					break;
-				}
-				break;	
+				Posiciones[i]=""+xx; alert(xx);
+				xx="";
+				T = "";	
 			}
-			xx= 0;
+			document.getElementById("demo").innerHTML = Posiciones[0];
+		//	alert('2'+ Posiciones[1]);
+			
+			if ((x>=40 && x<(Posiciones[0])) && (y>=160 && y<170))
+			{
+				alert('Exacto1');
+				
+				
+			}
+			if ((x>=40 && x<(Posiciones[1])) && (y>=125 && y<135))
+			{
+				alert('Exacto2');
+				
+				
+			}
+			if ((x>=40 && x<(Posiciones[2])) && (y>=92 && y<102))
+			{
+				alert('Exacto3');
+				
+			}		
+			if ((x>=40 && x<(Posiciones[3])) && (y>=60 && y<70))
+			{
+				alert('Exacto4');
+				
+			}
+			if ((x>=40 && x<(Posiciones[4])) && (y>=26 && y<36))
+			{
+				alert('Exacto5');
+				
+			}
         		alert("x: " + x + "  y: " + y);
       		}
 
