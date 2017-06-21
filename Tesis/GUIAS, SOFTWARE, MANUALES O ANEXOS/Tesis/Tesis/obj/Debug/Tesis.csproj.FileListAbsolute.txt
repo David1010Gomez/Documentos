@@ -1,0 +1,3 @@
+C:\Users\Leonardo Castro\Documents\Visual Studio 2012\Projects\Tesis\Tesis\obj\Debug\App.g.cs
+C:\Users\Leonardo Castro\Documents\Visual Studio 2012\Projects\Tesis\Tesis\obj\Debug\Escaner.g.cs
+C:\Users\Leonardo Castro\Documents\Visual Studio 2012\Projects\Tesis\Tesis\obj\Debug\MainPage.g.cs
