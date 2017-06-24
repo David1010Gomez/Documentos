@@ -1,0 +1,7 @@
+C:\Users\Leonardo Castro\Documents\Visual Studio 2012\Projects\Tesis\Tesis\obj\x86\Debug\Tesis.csprojResolveAssemblyReference.cache
+C:\Users\Leonardo Castro\Documents\Visual Studio 2012\Projects\Tesis\Tesis\obj\x86\Debug\App.g.cs
+C:\Users\Leonardo Castro\Documents\Visual Studio 2012\Projects\Tesis\Tesis\obj\x86\Debug\Escaner.g.cs
+C:\Users\Leonardo Castro\Documents\Visual Studio 2012\Projects\Tesis\Tesis\obj\x86\Debug\MainPage.g.cs
+C:\Users\Leonardo Castro\Documents\Visual Studio 2012\Projects\Tesis\Tesis\obj\x86\Debug\Tesis.g.resources
+C:\Users\Leonardo Castro\Documents\Visual Studio 2012\Projects\Tesis\Tesis\obj\x86\Debug\Tesis.Resources.AppResources.resources
+C:\Users\Leonardo Castro\Documents\Visual Studio 2012\Projects\Tesis\Tesis\obj\x86\Debug\Tesis.csproj.GenerateResource.Cache

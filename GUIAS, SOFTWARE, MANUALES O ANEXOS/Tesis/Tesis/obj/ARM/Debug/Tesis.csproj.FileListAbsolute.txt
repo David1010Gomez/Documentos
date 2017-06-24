@@ -1,0 +1,6 @@
+C:\Users\Leonardo Castro\Documents\Visual Studio 2012\Projects\Tesis\Tesis\obj\ARM\Debug\App.g.cs
+C:\Users\Leonardo Castro\Documents\Visual Studio 2012\Projects\Tesis\Tesis\obj\ARM\Debug\Escaner.g.cs
+C:\Users\Leonardo Castro\Documents\Visual Studio 2012\Projects\Tesis\Tesis\obj\ARM\Debug\MainPage.g.cs
+C:\Users\Leonardo Castro\Documents\Visual Studio 2012\Projects\Tesis\Tesis\obj\ARM\Debug\Tesis.g.resources
+C:\Users\Leonardo Castro\Documents\Visual Studio 2012\Projects\Tesis\Tesis\obj\ARM\Debug\Tesis.Resources.AppResources.resources
+C:\Users\Leonardo Castro\Documents\Visual Studio 2012\Projects\Tesis\Tesis\obj\ARM\Debug\Tesis.csproj.GenerateResource.Cache
